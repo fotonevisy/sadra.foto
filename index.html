@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>فتونویسی | طراحی سایت و فتوشاپ</title>
+    <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;500&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Vazirmatn', sans-serif;
+            background-color: #121212;
+            color: #f1f1f1;
+            line-height: 1.6;
+            direction: rtl;
+        }
+
+        header {
+            background-color: #1E1E1E;
+            color: #FFFFFF;
+            padding: 50px 0;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+        }
+
+        header h1 {
+            font-size: 45px;
+            font-family: 'Roboto', sans-serif;
+            font-weight: 700;
+        }
+
+        header p {
+            font-size: 20px;
+            font-weight: 400;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333333;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        }
+
+        nav a {
+            color: #f1f1f1;
+            padding: 15px 25px;
+            text-decoration: none;
+            font-weight: 500;
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+
+        nav a:hover {
+            background-color: #007BFF;
+            color: #fff;
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 50px 0;
+        }
+
+        section {
+            margin-bottom: 50px;
+        }
+
+        h2 {
+            text-align: center;
+            font-size: 36px;
+            color: #007BFF;
+            margin-bottom: 20px;
+            font-weight: 500;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        ul li {
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+
+        .pricing-table {
+            width: 100%;
+            margin-top: 30px;
+            border-collapse: collapse;
+            margin-bottom: 50px;
+        }
+
+        .pricing-table th, .pricing-table td {
+            padding: 15px;
+            border: 1px solid #444444;
+            text-align: center;
+        }
+
+        .pricing-table th {
+            background-color: #333333;
+            color: white;
+        }
+
+        .pricing-table td {
+            background-color: #222222;
+            color: #ddd;
+        }
+
+        .form-container {
+            background-color: #1E1E1E;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+            width: 50%;
+            margin: 20px auto;
+        }
+
+        .form-container input, .form-container textarea, .form-container button {
+            width: 100%;
+            padding: 12px;
+            margin: 10px 0;
+            border-radius: 8px;
+            border: 1px solid #444444;
+            font-size: 16px;
+            background-color: #2A2A2A;
+            color: #f1f1f1;
+        }
+
+        .form-container button {
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        .form-container button:hover {
+            background-color: #0056b3;
+        }
+
+        .social-links a {
+            margin: 0 15px;
+            font-size: 18px;
+            color: #007BFF;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .social-links a:hover {
+            color: #0056b3;
+        }
+
+        .image-gallery {
+            display: flex;
+            justify-content: space-between;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .image-gallery img {
+            width: 48%;
+            border-radius: 10px;
+            transition: transform 0.3s ease;
+        }
+
+        .image-gallery img:hover {
+            transform: scale(1.05);
+        }
+
+        footer {
+            background-color: #1E1E1E;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        footer p {
+            font-size: 16px;
+        }
+
+        @media screen and (max-width: 768px) {
+            .container {
+                width: 90%;
+            }
+
+            .form-container {
+                width: 100%;
+            }
+
+            .image-gallery img {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>به شرکت فتونویسی خوش آمدید!</h1>
+        <p>بهترین خدمات طراحی سایت و فتوشاپ را در اختیار شما قرار می‌دهیم.</p>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="#">خانه</a>
+        <a href="#about">درباره ما</a>
+        <a href="#services">خدمات</a>
+        <a href="#pricing">قیمت پروژه‌ها</a>
+        <a href="#contact">تماس با ما</a>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="container">
+        <!-- About Section -->
+        <section id="about">
+            <h2>درباره ما</h2>
+            <p>شرکت فتونویسی بهترین خدمات طراحی سایت و فتوشاپ را در اختیار شما قرار می‌دهد. با استفاده از تیم حرفه‌ای و با تجربه خود، ما به شما کمک می‌کنیم تا به دنیای دیجیتال حرفه‌ای وارد شوید.</p>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services">
+            <h2>چیزهایی که تخصص ماست</h2>
+            <h3>طراحی سایت:</h3>
+            <ul>
+                <li>سایت شخصی یا رزومه</li>
+                <li>سایت فروشگاهی</li>
+                <li>سایت خبری</li>
+                <li>سایت آموزشی</li>
+            </ul>
+            <h3>خدمات فتوشاپ:</h3>
+            <p>ما در زمینه ویرایش عکس، طراحی گرافیکی و هر چیز دیگری که در فتوشاپ نیاز دارید، به شما کمک خواهیم کرد.</p>
+        </section>
+
+        <!-- Pricing Section -->
+        <section id="pricing">
+            <h2>قیمت پروژه‌ها</h2>
+            <table class="pricing-table">
+                <thead>
+                    <tr>
+                        <th>نوع پروژه</th>
+                        <th>قیمت (تومان)</th>
+                        <th>مدت زمان تحویل</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>سایت شخصی یا رزومه</td>
+                        <td>5,000,000</td>
+                        <td>7 روز</td>
+                    </tr>
+                    <tr>
+                        <td>سایت فروشگاهی</td>
+                        <td>15,000,000</td>
+                        <td>15 روز</td>
+                    </tr>
+                    <tr>
+                        <td>سایت خبری</td>
+                        <td>10,000,000</td>
+                        <td>12 روز</td>
+                    </tr>
+                    <tr>
+                        <td>سایت آموزشی</td>
+                        <td>12,000,000</td>
+                        <td>10 روز</td>
+                    </tr>
+                    <tr>
+                        <td>خدمات فتوشاپ</td>
+                        <td>1,000,000</td>
+                        <td>3 روز</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- Image Gallery Section -->
+        <section>
+            <h2>نمونه کارها</h2>
+            <div class="image-gallery">
+                <img src="https://www.sariasan.com/wp-content/uploads/2022/10/word-image-80349-3.jpeg" alt="نمونه کار 1">
+                <img src="https://elementorthemes.ir/wp-content/uploads/2022/02/%D8%A8%D9%87%D8%AA%D8%B1%DB%8C%D9%86-%D9%82%D8%A7%D9%84%D8%A8-%D8%B3%D8%A7%DB%8C%D8%AA-%D8%B4%D8%AE%D8%B5%DB%8C-%D9%88%D8%B1%D8%AF%D9%BE%D8%B1%D8%B3.jpg" alt="نمونه کار 2">
+            </div>
+        </section>
+
+        <!-- Contact Form Section -->
+        <section id="contact">
+            <h2>تماس با ما</h2>
+            <div class="form-container">
+                <h3>فرم ثبت سفارش</h3>
+                <form action="submit_form.php" method="POST">
+                    <input type="text" name="name" placeholder="نام و نام خانوادگی" required>
+                    <input type="email" name="email" placeholder="ایمیل" required>
+                    <input type="tel" name="phone" placeholder="شماره تماس" required>
+                    <textarea name="message" rows="4" placeholder="پیام شما" required></textarea>
+                    <button type="submit">ارسال سفارش</button>
+                </form>
+            </div>
+
+            <div class="social-links">
+                <a href="https://t.me/fotonevisi" target="_blank">کانال تلگرام</a>
+                <a href="https://www.instagram.com/foto.nevisi/profilecard/?igsh=MTU5amZhcGF2bnRzdQ==" target="_blank">اینستاگرام</a>
+            </div>
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2024 فتونویسی. تمامی حقوق محفوظ است.</p>
+    </footer>
+
+</body>
+</html>
